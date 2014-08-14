@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BC09E6D199D07E500358034 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC09E6C199D07E500358034 /* Foundation.framework */; };
+		8BC09E6F199D07E500358034 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC09E6E199D07E500358034 /* CoreGraphics.framework */; };
+		8BC09E71199D07E500358034 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC09E70199D07E500358034 /* UIKit.framework */; };
+		8BC09E77199D07E600358034 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BC09E75199D07E500358034 /* InfoPlist.strings */; };
+		8BC09E79199D07E600358034 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC09E78199D07E600358034 /* main.m */; };
+		8BC09E7D199D07E600358034 /* TimeCardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC09E7C199D07E600358034 /* TimeCardAppDelegate.m */; };
+		8BC09E80199D07E600358034 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC09E7E199D07E600358034 /* Main_iPhone.storyboard */; };
+		8BC09E83199D07E600358034 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC09E81199D07E600358034 /* Main_iPad.storyboard */; };
+		8BC09E86199D07E600358034 /* TimeCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC09E85199D07E600358034 /* TimeCardViewController.m */; };
+		8BC09E88199D07E600358034 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC09E87199D07E600358034 /* Images.xcassets */; };
+		8BC09E8F199D07E600358034 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC09E8E199D07E600358034 /* XCTest.framework */; };
+		8BC09E90199D07E600358034 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC09E6C199D07E500358034 /* Foundation.framework */; };
+		8BC09E91199D07E600358034 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC09E70199D07E500358034 /* UIKit.framework */; };
+		8BC09E99199D07E600358034 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BC09E97199D07E600358034 /* InfoPlist.strings */; };
+		8BC09E9B199D07E600358034 /* TimeCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC09E9A199D07E600358034 /* TimeCardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BC09E92199D07E600358034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BC09E61199D07E500358034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC09E68199D07E500358034;
+			remoteInfo = TimeCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BC09E69199D07E500358034 /* TimeCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC09E6C199D07E500358034 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BC09E6E199D07E500358034 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BC09E70199D07E500358034 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BC09E74199D07E500358034 /* TimeCard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeCard-Info.plist"; sourceTree = "<group>"; };
+		8BC09E76199D07E500358034 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BC09E78199D07E600358034 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BC09E7A199D07E600358034 /* TimeCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeCard-Prefix.pch"; sourceTree = "<group>"; };
+		8BC09E7B199D07E600358034 /* TimeCardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeCardAppDelegate.h; sourceTree = "<group>"; };
+		8BC09E7C199D07E600358034 /* TimeCardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeCardAppDelegate.m; sourceTree = "<group>"; };
+		8BC09E7F199D07E600358034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8BC09E82199D07E600358034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8BC09E84199D07E600358034 /* TimeCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeCardViewController.h; sourceTree = "<group>"; };
+		8BC09E85199D07E600358034 /* TimeCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeCardViewController.m; sourceTree = "<group>"; };
+		8BC09E87199D07E600358034 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BC09E8D199D07E600358034 /* TimeCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC09E8E199D07E600358034 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8BC09E96199D07E600358034 /* TimeCardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeCardTests-Info.plist"; sourceTree = "<group>"; };
+		8BC09E98199D07E600358034 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BC09E9A199D07E600358034 /* TimeCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeCardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC09E66199D07E500358034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC09E6F199D07E500358034 /* CoreGraphics.framework in Frameworks */,
+				8BC09E71199D07E500358034 /* UIKit.framework in Frameworks */,
+				8BC09E6D199D07E500358034 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC09E8A199D07E600358034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC09E8F199D07E600358034 /* XCTest.framework in Frameworks */,
+				8BC09E91199D07E600358034 /* UIKit.framework in Frameworks */,
+				8BC09E90199D07E600358034 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BC09E60199D07E500358034 = {
+			isa = PBXGroup;
+			children = (
+				8BC09E72199D07E500358034 /* TimeCard */,
+				8BC09E94199D07E600358034 /* TimeCardTests */,
+				8BC09E6B199D07E500358034 /* Frameworks */,
+				8BC09E6A199D07E500358034 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC09E6A199D07E500358034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC09E69199D07E500358034 /* TimeCard.app */,
+				8BC09E8D199D07E600358034 /* TimeCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BC09E6B199D07E500358034 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BC09E6C199D07E500358034 /* Foundation.framework */,
+				8BC09E6E199D07E500358034 /* CoreGraphics.framework */,
+				8BC09E70199D07E500358034 /* UIKit.framework */,
+				8BC09E8E199D07E600358034 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BC09E72199D07E500358034 /* TimeCard */ = {
+			isa = PBXGroup;
+			children = (
+				8BC09E7B199D07E600358034 /* TimeCardAppDelegate.h */,
+				8BC09E7C199D07E600358034 /* TimeCardAppDelegate.m */,
+				8BC09E7E199D07E600358034 /* Main_iPhone.storyboard */,
+				8BC09E81199D07E600358034 /* Main_iPad.storyboard */,
+				8BC09E84199D07E600358034 /* TimeCardViewController.h */,
+				8BC09E85199D07E600358034 /* TimeCardViewController.m */,
+				8BC09E87199D07E600358034 /* Images.xcassets */,
+				8BC09E73199D07E500358034 /* Supporting Files */,
+			);
+			path = TimeCard;
+			sourceTree = "<group>";
+		};
+		8BC09E73199D07E500358034 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BC09E74199D07E500358034 /* TimeCard-Info.plist */,
+				8BC09E75199D07E500358034 /* InfoPlist.strings */,
+				8BC09E78199D07E600358034 /* main.m */,
+				8BC09E7A199D07E600358034 /* TimeCard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BC09E94199D07E600358034 /* TimeCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BC09E9A199D07E600358034 /* TimeCardTests.m */,
+				8BC09E95199D07E600358034 /* Supporting Files */,
+			);
+			path = TimeCardTests;
+			sourceTree = "<group>";
+		};
+		8BC09E95199D07E600358034 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BC09E96199D07E600358034 /* TimeCardTests-Info.plist */,
+				8BC09E97199D07E600358034 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BC09E68199D07E500358034 /* TimeCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC09E9E199D07E600358034 /* Build configuration list for PBXNativeTarget "TimeCard" */;
+			buildPhases = (
+				8BC09E65199D07E500358034 /* Sources */,
+				8BC09E66199D07E500358034 /* Frameworks */,
+				8BC09E67199D07E500358034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeCard;
+			productName = TimeCard;
+			productReference = 8BC09E69199D07E500358034 /* TimeCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BC09E8C199D07E600358034 /* TimeCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC09EA1199D07E600358034 /* Build configuration list for PBXNativeTarget "TimeCardTests" */;
+			buildPhases = (
+				8BC09E89199D07E600358034 /* Sources */,
+				8BC09E8A199D07E600358034 /* Frameworks */,
+				8BC09E8B199D07E600358034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC09E93199D07E600358034 /* PBXTargetDependency */,
+			);
+			name = TimeCardTests;
+			productName = TimeCardTests;
+			productReference = 8BC09E8D199D07E600358034 /* TimeCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BC09E61199D07E500358034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TimeCard;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = axialgrafiks;
+				TargetAttributes = {
+					8BC09E8C199D07E600358034 = {
+						TestTargetID = 8BC09E68199D07E500358034;
+					};
+				};
+			};
+			buildConfigurationList = 8BC09E64199D07E500358034 /* Build configuration list for PBXProject "TimeCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BC09E60199D07E500358034;
+			productRefGroup = 8BC09E6A199D07E500358034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BC09E68199D07E500358034 /* TimeCard */,
+				8BC09E8C199D07E600358034 /* TimeCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BC09E67199D07E500358034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC09E83199D07E600358034 /* Main_iPad.storyboard in Resources */,
+				8BC09E88199D07E600358034 /* Images.xcassets in Resources */,
+				8BC09E80199D07E600358034 /* Main_iPhone.storyboard in Resources */,
+				8BC09E77199D07E600358034 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC09E8B199D07E600358034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC09E99199D07E600358034 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BC09E65199D07E500358034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC09E86199D07E600358034 /* TimeCardViewController.m in Sources */,
+				8BC09E79199D07E600358034 /* main.m in Sources */,
+				8BC09E7D199D07E600358034 /* TimeCardAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC09E89199D07E600358034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC09E9B199D07E600358034 /* TimeCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BC09E93199D07E600358034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC09E68199D07E500358034 /* TimeCard */;
+			targetProxy = 8BC09E92199D07E600358034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BC09E75199D07E500358034 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC09E76199D07E500358034 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BC09E7E199D07E600358034 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC09E7F199D07E600358034 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC09E81199D07E600358034 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC09E82199D07E600358034 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC09E97199D07E600358034 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC09E98199D07E600358034 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BC09E9C199D07E600358034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BC09E9D199D07E600358034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BC09E9F199D07E600358034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeCard/TimeCard-Prefix.pch";
+				INFOPLIST_FILE = "TimeCard/TimeCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BC09EA0199D07E600358034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeCard/TimeCard-Prefix.pch";
+				INFOPLIST_FILE = "TimeCard/TimeCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8BC09EA2199D07E600358034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeCard.app/TimeCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeCard/TimeCard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimeCardTests/TimeCardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8BC09EA3199D07E600358034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeCard.app/TimeCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeCard/TimeCard-Prefix.pch";
+				INFOPLIST_FILE = "TimeCardTests/TimeCardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BC09E64199D07E500358034 /* Build configuration list for PBXProject "TimeCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC09E9C199D07E600358034 /* Debug */,
+				8BC09E9D199D07E600358034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC09E9E199D07E600358034 /* Build configuration list for PBXNativeTarget "TimeCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC09E9F199D07E600358034 /* Debug */,
+				8BC09EA0199D07E600358034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BC09EA1199D07E600358034 /* Build configuration list for PBXNativeTarget "TimeCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC09EA2199D07E600358034 /* Debug */,
+				8BC09EA3199D07E600358034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BC09E61199D07E500358034 /* Project object */;
+}
